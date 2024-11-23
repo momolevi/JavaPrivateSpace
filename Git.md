@@ -69,24 +69,26 @@ Hi momolevi! You've successfully authenticated, but GitHub does not provide shel
 现在可利用新创建的远程仓库保存、同步代码了。
 -------------
 
-## clone
+### clone
 在新的目标路径下先同步远程仓库
 git clone git@github.com:momolevi/JavaPrivateSpace.git
 
 在新的目标路径下创建文件 如：HelloGit.txt
-## 上传
+### 上传
 git add .
 git commit -m "XXX"
 git push
 git status         --查询状态
 
-## End
+### End
 End
-
 ---------------
-## 中途遇到的报错
+### 中途遇到的报错
 git push --set-upstream origin main
 --fatal: unable to access 'https://github.com/momolevi/JavaPrivateSpace.git/': HTTP/2 stream 1 was not closed cleanly before end of the underlying stream
 
 fatal: unable to access 'https://github.com/xxx/': HTTP/2 stream 1 was not closed cleanly before end of the underlying stream
 方法一：关闭所有github所有页面，关闭所有和github之间的连接，然后再次push，就成功了。
+----------------
+
+## 使用idea 
