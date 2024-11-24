@@ -91,7 +91,7 @@ fatal: unable to access 'https://github.com/xxx/': HTTP/2 stream 1 was not close
 方法一：关闭所有github所有页面，关闭所有和github之间的连接，然后再次push，就成功了。
 ----------------
 
-## 使用idea更新git
+### 三、使用idea更新git
 
 git branch -r 查看远程分支
 
