@@ -16,6 +16,7 @@
     1、git config --global user.name "levi"
     2、git config --global user.email "1zhenweilevi@gmail.com"
     3、查看是否成功？git config --global --list
+
 配置成功
 ![](assets/17323734952385.png)
 
@@ -89,6 +90,4 @@ git push --set-upstream origin main
 
 fatal: unable to access 'https://github.com/xxx/': HTTP/2 stream 1 was not closed cleanly before end of the underlying stream
 方法一：关闭所有github所有页面，关闭所有和github之间的连接，然后再次push，就成功了。
-----------------
-
-## 使用idea 
+---------------- 
